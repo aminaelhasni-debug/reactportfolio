@@ -32,7 +32,7 @@
     height: 60vh;
     background-size: cover;
     padding: 1rem;
-    width: 100vw;
+    width: 95vw;
 }
 .Header button{
     width: max-content;
@@ -237,10 +237,18 @@ progress::-webkit-progress-value {
     .info{
         padding: 0;
     }
+    .Header__center{
+        width: 95vw;
+        height: 20vh;
+    }
     }
     @media(max-width: 600px){
     .section__skills p{
         width: 88%;
+    }
+    .Header{
+        width: 87vw;
+        height: 30vh;
     }
     .section__data{
         display: block;
